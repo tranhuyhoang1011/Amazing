@@ -64,5 +64,5 @@
 set :stage, :production
 set :rails_env, :production
 set :deploy_to, "/deploy/apps/iorder_server"
-set :branch, :config_deploy
+set :branch, :master
 server "3.0.102.207", user: "hoangtran", roles: %w(web app db)
