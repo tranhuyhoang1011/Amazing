@@ -60,7 +60,7 @@
 #     # password: "please use keys"
 #   }
 # config valid only for current version of Capistrano
-lock "3.5.0"
+lock "3.14.0"
 
 set :application, "demo_aws"
 set :repo_url, "git@github.com:tranhuyhoang1011/Amazing.git"
